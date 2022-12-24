@@ -1,0 +1,78 @@
+section.head{
+    background-color: #7474c6;
+    padding: 12px;
+    text-align: center;
+}
+span.contact{
+    border: 5px solid whitesmoke;
+    border-radius: 15px;
+    padding: 5px;
+    color: whitesmoke;
+}
+nav{
+    background-color: whitesmoke;
+    padding: 12px;
+}
+nav ul{
+    white-space: nowrap;
+    margin: 5px auto;
+}
+nav li{
+    width: 22%;
+    display: inline-block;
+}
+nav li a{
+     text-decoration: none;
+     font-size: 18px;
+     font-weight: bold;
+     color: black;
+}
+nav li a.color{
+    color: #2e2eda;
+}
+main section h2{
+    background-color: #7474c6;
+    padding: 5px;
+    color: whitesmoke;
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+form{
+    text-align: center;
+    background-color: #7474c6;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1.2em;
+    color: whitesmoke;
+}
+button{
+    background-color: #120a42;
+    color: whitesmoke;
+    border: white;
+    border-radius: 12px;
+    padding: 5px;
+    font-weight: bold;
+}
+label{
+    font-weight: bold;
+}
+legend{
+    font-weight: bold;
+}
+footer{
+    background-color: indigo;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+    border-radius: 25px;
+}
+span.footer{
+    font-size: 1.4em;
+}
+address{
+    text-align: center;
+    font-weight: bold;
+}

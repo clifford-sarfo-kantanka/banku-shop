@@ -1,0 +1,59 @@
+.banner{
+    background-color: #7474c6;
+    padding: 2em;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+span.top{
+    border: 5px solid whitesmoke;
+    border-radius: 15px;
+    padding: 5px;
+    font-weight: bold;
+}
+nav{
+    background-color: whitesmoke;
+    padding: 12px;
+    position: fixed;
+    width: 100%;
+    top: 130px;
+    left: 0;
+}
+nav ul{
+    white-space: nowrap;
+    margin: 5px auto;
+}
+nav li{
+    width: 22%;
+    display: inline-block;
+}
+nav li a{
+     text-decoration: none;
+     font-size: 18px;
+     font-weight: bold;
+     color: black;
+}
+nav li a.color{
+    color: #2e2eda;
+}
+.rest{
+    position: fixed;
+    top: 30%;
+    left: 40%;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.foot{
+    position: fixed;
+    top: 80%;
+    left: 40%;
+    background-color: whitesmoke;
+    color:indigo;
+    padding: 10px;
+    font-weight: bold;
+    border: 5px solid indigo;
+    border-radius: 17px;
+}
+

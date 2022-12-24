@@ -1,0 +1,95 @@
+table, tr, th, td, caption {
+    border: 1px solid rgb(255, 255, 255);
+    font-family:'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 1rem;
+    color: white;
+} 
+.killer{
+    background-color: #7474c6;
+    padding: 2em;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.top{
+    font-size: 1.3em;
+    font-weight: bold;
+    border: 5px solid whitesmoke;
+    border-radius: 15px;
+    padding: 2px;
+}
+nav{
+    background-color: whitesmoke;
+    padding: 12px;
+    position: fixed;
+    width: 100%;
+    top: 130px;
+    left: 0;
+}
+nav ul{
+    white-space: nowrap;
+    margin: 5px auto;
+}
+nav li{
+    width: 22%;
+    display: inline-block;
+}
+nav li a{
+     text-decoration: none;
+     font-size: 18px;
+     font-weight: bold;
+     color: black;
+}
+nav li a.color{
+    color: #2e2eda;
+}
+figure img{
+    margin: 20px auto;
+}
+figure{
+    text-align: center;
+    margin: 10px auto;
+    white-space: nowrap;
+}
+.about{
+    font-weight: bold;
+    background-color: #7474c6;
+    padding: 15px;
+    border-radius: 25px;
+    color: whitesmoke;
+}
+p.back2top{
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+p a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+footer{
+    background-color: indigo;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+    border-radius: 25px;
+}
+span.footer{
+    font-size: 1.4em;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.menus{
+    text-align: center;
+    font-size: 1.5em;
+    background-image: url(/img/BankuTilapia.jpg);
+    filter: brightness(70%);
+    color: white;
+    font-weight: bold;
+}
